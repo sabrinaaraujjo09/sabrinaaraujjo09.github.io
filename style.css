@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+    padding: 10px;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+.logo {
+    width: 99px;
+    height: 80px;
+}
+
+main {
+    width: 80%; 
+    background-color: black;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+section
+{
+    background-color: aqua;
+  background-image: url('img/divertidamente.webp');
+  width: 80%;
+  height: 498px;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+background-repeat: no-repeat;
+background-size: 1600px;
+
+}
+  .flex-item {
+    width: 200px;
+    
+  }
+
+aside {
+    padding-left: 200px;
+    padding-top: 30px;
+}
+.c1{
+    flex-grow: 1;
+}
+
+.c2{
+    flex-grow: 2;
+}
+
+p {
+    color: aliceblue;
+}
+
+.poster {
+    width: 90%;
+}
+h1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: aliceblue;
+    
+}
+.dirigido {
+    color: aliceblue;
+    display:block;
+    
+}
